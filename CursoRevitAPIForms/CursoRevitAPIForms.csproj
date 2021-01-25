@@ -58,6 +58,18 @@
     <Compile Include="formulario2.Designer.cs">
       <DependentUpon>formulario2.cs</DependentUpon>
     </Compile>
+    <Compile Include="formulario3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formulario3.Designer.cs">
+      <DependentUpon>formulario3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formulario4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formulario4.Designer.cs">
+      <DependentUpon>formulario4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -65,6 +77,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formulario2.resx">
       <DependentUpon>formulario2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formulario3.resx">
+      <DependentUpon>formulario3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formulario4.resx">
+      <DependentUpon>formulario4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -39,6 +39,10 @@
             this.txtEdad = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.btnFrm2 = new System.Windows.Forms.Button();
+            this.btnformulario3 = new System.Windows.Forms.Button();
+            this.btnFormulario4 = new System.Windows.Forms.Button();
+            this.txtRuta = new System.Windows.Forms.TextBox();
+            this.btnExaminar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -129,7 +133,7 @@
             // 
             // btnFrm2
             // 
-            this.btnFrm2.Location = new System.Drawing.Point(255, 197);
+            this.btnFrm2.Location = new System.Drawing.Point(255, 110);
             this.btnFrm2.Name = "btnFrm2";
             this.btnFrm2.Size = new System.Drawing.Size(117, 41);
             this.btnFrm2.TabIndex = 10;
@@ -137,11 +141,53 @@
             this.btnFrm2.UseVisualStyleBackColor = true;
             this.btnFrm2.Click += new System.EventHandler(this.btnFrm2_Click);
             // 
+            // btnformulario3
+            // 
+            this.btnformulario3.Location = new System.Drawing.Point(255, 157);
+            this.btnformulario3.Name = "btnformulario3";
+            this.btnformulario3.Size = new System.Drawing.Size(117, 41);
+            this.btnformulario3.TabIndex = 11;
+            this.btnformulario3.Text = "Abrir otro formulario2";
+            this.btnformulario3.UseVisualStyleBackColor = true;
+            this.btnformulario3.Click += new System.EventHandler(this.btnformulario3_Click);
+            // 
+            // btnFormulario4
+            // 
+            this.btnFormulario4.Location = new System.Drawing.Point(255, 204);
+            this.btnFormulario4.Name = "btnFormulario4";
+            this.btnFormulario4.Size = new System.Drawing.Size(117, 41);
+            this.btnFormulario4.TabIndex = 12;
+            this.btnFormulario4.Text = "Abrir otro formulario3";
+            this.btnFormulario4.UseVisualStyleBackColor = true;
+            this.btnFormulario4.Click += new System.EventHandler(this.btnFormulario4_Click);
+            // 
+            // txtRuta
+            // 
+            this.txtRuta.Location = new System.Drawing.Point(12, 12);
+            this.txtRuta.Name = "txtRuta";
+            this.txtRuta.ReadOnly = true;
+            this.txtRuta.Size = new System.Drawing.Size(247, 20);
+            this.txtRuta.TabIndex = 13;
+            // 
+            // btnExaminar
+            // 
+            this.btnExaminar.Location = new System.Drawing.Point(265, 10);
+            this.btnExaminar.Name = "btnExaminar";
+            this.btnExaminar.Size = new System.Drawing.Size(107, 23);
+            this.btnExaminar.TabIndex = 14;
+            this.btnExaminar.Text = "Examinar";
+            this.btnExaminar.UseVisualStyleBackColor = true;
+            this.btnExaminar.Click += new System.EventHandler(this.btnExaminar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 311);
+            this.Controls.Add(this.btnExaminar);
+            this.Controls.Add(this.txtRuta);
+            this.Controls.Add(this.btnFormulario4);
+            this.Controls.Add(this.btnformulario3);
             this.Controls.Add(this.btnFrm2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtEdad);
@@ -173,6 +219,10 @@
         private System.Windows.Forms.TextBox txtEdad;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnFrm2;
+        private System.Windows.Forms.Button btnformulario3;
+        private System.Windows.Forms.Button btnFormulario4;
+        private System.Windows.Forms.TextBox txtRuta;
+        private System.Windows.Forms.Button btnExaminar;
     }
 }
 
